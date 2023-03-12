@@ -1,0 +1,437 @@
+--if u skid ill find u and fuck ur family
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
+
+local UI = GUI:CreateWindow("CL SCRIPT | zzzzzzzzzz#2926","o")
+
+local Home1 = UI:addPage("HOME",1,true,6)
+local Home2 = UI:addPage("PLAYER",2,true,6)
+local Home3 = UI:addPage("EXPLOITS",3,true,6)
+local Home4 = UI:addPage("FUN",4,true,6)
+local Home5 = UI:addPage("EXTRA",5,true,6)
+local Home6 = UI:addPage("Private Scripts",5,true,6)
+
+
+Home1:addLabel("SCRIPT MADE BY:","zzzzzzzzzz#2926")
+Home1:addLabel("Copyright (c) 2007-2016","zzzzzzzzzz#2926")
+Home1:addLabel("The YARA Authors.","zzzzzzzzzz#2926")
+Home1:addLabel("All Rights Reserved","zzzzzzzzzz#2926")
+Home1:addLabel("1. Redistributions of source code","zzzzzzzzzz#2926")
+Home1:addLabel("2. Redistributions in binary form must reproduce","zzzzzzzzzz#2926")
+Home1:addLabel("3. Neither the name of the copyright holder nor the names","zzzzzzzzzz#2926")
+Home2:addLabel("SCRIPT MADE BY:","zzzzzzzzzz#2926")
+
+
+
+
+Home2:addButton("WALKSPEED RECOMMENDED",function()
+    local plr = game.Players.LocalPlayer
+            local char = plr.Character
+            char.Humanoid.WalkSpeed = 40
+end)
+
+
+
+Home2:addSlider("WALKSPEED",16,100,function(value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
+Home2:addButton("FLY",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/fk7/main/README.md"))()
+end)
+
+Home2:addButton("Infinite Stamina",function()
+    while true do 
+        wait(0)
+        game.Players.LocalPlayer.Valuestats.Stamina.Value = 100
+    end
+end)
+
+Home2:addButton("Infinite Hunger",function()
+    while true do 
+        wait(0)
+        game.Players.LocalPlayer.Valuestats.Hunger.Value = 100
+    end 
+end)
+
+Home2:addButton("Infinite Karma",function()
+    while true do
+        wait(1)
+        game.Players.LocalPlayer.Valuestats.Karma.Value = 999999
+    end
+end)
+
+Home2:addButton("Infinite Skittles",function()
+    while wait() do
+        game:GetService("Players").LocalPlayer.PlayerGui.Run.Value.Value = true
+        game.Players.LocalPlayer.Character.Resistance.Value = true
+        game:GetService("Workspace").LocalPlayer.Resistance = true
+    end
+end)
+
+
+Home2:addButton("Removes Karma Alert",function()
+    while true do
+        wait(1)
+        game.ReplicatedStorage.KarmaAlert:Destroy()
+end
+end)
+
+Home2:addButton("Removes Karma Alert",function()
+    while true do
+        wait(1)
+        game.ReplicatedStorage.KarmaAlert:Destroy()
+end
+end)
+
+Home3:addButton("Teleport APT 1",function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-174.920364, -457.615662, -492.994751, -0.180078208, -4.21272581e-08, 0.983652294, 6.4255083e-08, 1, 5.45906289e-08, -0.983652294, 7.30352383e-08, -0.180078208)
+end)
+
+Home3:addButton("Teleport APT 2",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-176.317627, -457.61377, -69.5002899, 0.0730405673, -7.53507123e-08, 0.997328997, -4.6163656e-08, 1, 7.89333683e-08, -0.997328997, -5.18056886e-08, 0.0730405673)
+ end)
+
+ Home3:addButton("Teleport APT 3",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.92828584, -380.859467, 242.199875, -0.193823189, -3.6211631e-08, -0.981036484, 7.47647562e-08, 1, -5.16828607e-08, 0.981036484, -8.33642915e-08, -0.193823189)
+ end)
+
+ Home3:addButton("Teleport main steet",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-6.34762383, 4.45790863, -88.7473221, -0.902977288, 5.52987913e-08, -0.429688275, 4.74982436e-08, 1, 2.88789668e-08, 0.429688275, 5.66761349e-09, -0.902977288)
+ end)
+
+Home3:addButton("Teleport weapon grabber (BrettaExt)",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-207.545013, 7.21418762, -212.231384, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+ end)
+
+Home3:addButton("Teleport weapon grabber (Goldraco + BrettaExt) [ONLY GANG]",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-398.878937, 4.18278694, 331.418671, -0.00566357654, 7.69626318e-09, 0.999983966, -1.11035661e-07, 1, -8.32525515e-09, -0.999983966, -1.11081036e-07, -0.00566357654) 
+ end)
+
+Home3:addButton("Met station (free guns)",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-764.576538, -139.507385, -2627.05884, -0.605545819, 5.15337906e-09, 0.795810461, -1.88359528e-09, 1, -7.90889576e-09, -0.795810461, -6.28818375e-09, -0.605545819) 
+ end)
+
+
+ Home3:addButton("Hitbox (BIG HEAD)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/dedefe/main/README.md"))()
+ end)
+
+ Home3:addButton("ESP",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/fwfveef/main/README.md"))()
+ end)
+
+ Home3:addButton("Pick Up Tools",function()
+    local g = game.Workspace.tools
+    while task.wait() do
+        for fk, fl in pairs((g:GetChildren())) do
+            if fl:IsA("Tool") then
+                if fl:IsA("Tool") and fl.Name == "Phone" or fl.Name == "Crate" then
+                else
+                    game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(fl)
+                
+                end
+            end
+        end
+    end
+ end)
+
+ Home3:addButton("Kill all",function()
+    --[[
+bad skid
+--]]
+
+local L_1_ = true;
+local L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+local L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(L_4_arg1)
+	if L_4_arg1 == 'f' then
+		L_1_ = not L_1_
+	end;
+	if L_4_arg1 == 'r' then
+		L_2_ = game.Players.LocalPlayer.Character.HumanoidRootPart;
+		L_3_ = L_2_.Position - Vector3.new(5, 0, 0)
+	end
+end)
+
+for L_5_forvar1, L_6_forvar2 in pairs(game.Players:GetPlayers()) do
+	if L_6_forvar2 == game.Players.LocalPlayer then
+	else
+		local L_7_ = coroutine.create(function()
+			game:GetService('RunService').RenderStepped:Connect(function()
+				local L_8_, L_9_ = pcall(function()
+					local L_10_ = L_6_forvar2.Character;
+					if L_10_ then
+						if L_10_:FindFirstChild("HumanoidRootPart") then
+							if L_1_ then
+								L_6_forvar2.Backpack:ClearAllChildren()
+								for L_11_forvar1, L_12_forvar2 in pairs(L_10_:GetChildren()) do
+									if L_12_forvar2:IsA("Tool") then
+										L_12_forvar2:Destroy()
+									end
+								end;
+								L_10_.HumanoidRootPart.CFrame = CFrame.new(L_3_)
+							end
+						end
+					end
+				end)
+				if L_8_ then
+				else
+					warn("Unnormal error: "..L_9_)
+				end
+			end)
+		end)
+		coroutine.resume(L_7_)
+	end
+end;
+
+game.Players.PlayerAdded:Connect(function(L_13_arg1)   
+	if L_13_arg1 == game.Players.LocalPlayer then
+	else
+		local L_14_ = coroutine.create(function()
+			game:GetService('RunService').RenderStepped:Connect(function()
+				local L_15_, L_16_ = pcall(function()
+					local L_17_ = L_13_arg1.Character;
+					if L_17_ then
+						if L_17_:FindFirstChild("HumanoidRootPart") then
+							if L_1_ then
+								L_13_arg1.Backpack:ClearAllChildren()
+								for L_18_forvar1, L_19_forvar2 in pairs(L_17_:GetChildren()) do
+									if L_19_forvar2:IsA("Tool") then
+										L_19_forvar2:Destroy()
+									end
+								end;
+								L_17_.HumanoidRootPart.CFrame = CFrame.new(L_3_)
+							end
+						end
+					end
+				end)
+				if L_15_ then
+				else
+					warn("Unnormal error: "..L_16_)
+				end
+			end)
+		end)
+		coroutine.resume(L_14_)
+	end           
+end)
+ end)
+
+
+
+
+
+Home5:addButton("Skip loading screen",function()
+    local LP = game:GetService("Players").LocalPlayer
+    if LP.PlayerGui:FindFirstChild("Menu") then
+    LP.PlayerGui:FindFirstChild("Menu"):Destroy()
+    end
+    
+    if LP.PlayerGui:FindFirstChild("Agreement") then
+    LP.PlayerGui:FindFirstChild("Agreement"):Destroy()
+    end
+    
+    LP.PlayerGui.Stats.Enabled = true
+    LP.PlayerGui.twitter.Enabled = false
+    
+    workspace.CurrentCamera.CameraType = "Custom"
+    local char = LP.Character or LP.CharacterAdded:Wait()
+    workspace.CurrentCamera.CameraSubject = char:WaitForChild("Humanoid")
+end)
+
+Home5:addButton("Removes Traffic City Noises",function()
+    while true do
+        wait(1)
+        game.SoundService["Traffic City Noises"]:Destroy()
+end
+end)
+
+Home5:addButton("Remove Damage Blood",function()
+    while true do
+        wait(1)
+                    game.Players.LocalPlayer.PlayerGui.Dmg:Destroy()
+end
+end)
+
+Home5:addButton("Quick Buy Food",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/sasasas/main/README.md"))()  
+end)
+
+Home5:addButton("Anti Camera Bob",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/sfegrgr/main/README.md"))()
+end)
+
+Home5:addButton("Anti Ragdoll",function()
+    game:GetService("ReplicatedStorage").Modules.RagdollHandler:Destroy()
+    game.ReplicatedStorage.RemoteEvents.SetPlayerRagdolled:Destroy()
+    game.Workspace.Ragdoller:Destroy()
+    
+    while task.wait(1) do 
+    if game.Players.LocalPlayer.Character:FindFirstChild("Ragdolled") then
+        game.Players.LocalPlayer.Character:FindFirstChild("Ragdolled"):Destroy()
+    end 
+    end
+end)
+
+Home5:addButton("Anti Blur",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/sdfe3/main/README.md"))()
+end)
+
+Home5:addButton("Anti Combat Log",function()
+    game:GetService("Players").LocalPlayer.PlayerGui.Stats.CLog:Destroy()
+end)
+
+Home5:addButton("BoomBox baby",function()
+    _G.boomboxb = game:GetObjects('rbxassetid://740618400')[1]
+    _G.boomboxb.Parent = game:GetService'Players'.LocalPlayer.Backpack
+    loadstring(_G.boomboxb.Client.Source)() 
+    loadstring(_G.boomboxb.Server.Source)()
+end)
+
+Home4:addButton("No Face",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/wqqqq/main/README.md"))()
+end)
+
+Home4:addButton("No Head",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/fdqqqqq/main/README.md"))()
+end)
+
+Home4:addButton("No bald",function()
+    for i,v in next, game:GetService('Players').LocalPlayer.Character:GetChildren() do
+        if v:IsA('Accessory') then
+            v:Destroy()
+        end
+end
+end)
+
+Home4:addButton("No Name",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WspNas/wwdghjhgfds/main/README.md"))()
+end)
+
+Home4:addButton("Fire Hands",function()
+    Fire.Parent = game.Players.LocalPlayer.Character.RightHand
+    Fire.Heat = 5
+    Fire.Size = 2
+end)
+
+Home4:addButton("Loud Sound",function()
+    local args = {
+        [1] = workspace:FindFirstChild(game.Players.LocalPlayer.Name .. "'s Car")
+    }
+    
+    game:GetService("ReplicatedStorage").TireSmoke:FireServer(unpack(args))
+    
+    local args = {
+        [1] = game.Workspace[game.Players.LocalPlayer.Name .. "'s Car"],
+        [2] = 1000,
+        [3] = 1000,
+        [4] = false,
+        [5] = 1000,
+        [6] = 1000,
+        [7] = 0,
+        [8] = 1000,
+        [9] = false
+    }
+    
+    game:GetService("ReplicatedStorage").CarSound:FireServer(unpack(args))
+end)
+
+Home4:addButton("Call all",function()
+    local function callAll( )
+        for i,v in pairs(Players:GetPlayers( )) do
+            if v ~= LocalPlayer then
+    
+                local args = {
+                    [1] = v,
+                    [2] = "Starting"
+                };        
+    
+                game:GetService("ReplicatedStorage").Call:FireServer(unpack(args));
+    
+                print("called " .. v.Name);
+            end;
+        end;
+    end;
+    callAll()
+end)
+
+
+Home3:addButton("Aimbot (Op leftclick mouse)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
+end)
+
+Home3:addButton("Aimbot 2 (Op leftclick mouse)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Whatasd/GoodAimbot/main/zzzzzzzzzz%232926"))()
+end)
+
+
+
+
+ Home3:addTextBox("Kill Player (Fist)","Player name",function(text)
+     for i, v in pairs(game.Players:GetChildren()) do
+            if (string.sub(string.lower(v.Name), 1, string.len(text))) == string.lower(text) then
+                text = v.Name
+            end
+        end
+        local Target = text
+        local dead
+
+        if not game.Players.LocalPlayer.Backpack:FindFirstChild("Fist") then
+            return notify("No fists found!", 10)
+        end
+
+        if not game.Players.LocalPlayer.Character:FindFirstChild("Fist") then
+            game.Players.LocalPlayer.Backpack.Fist.Parent = game.Players.LocalPlayer.Character
+        end
+
+        if game.Players[Target].Character.Humanoid.Health >= 1 then
+            dead = false
+        end
+
+        if game.Players[Target].Character.Humanoid.Health <= 1 then
+            dead = true
+        end
+
+        local ohInstance1 = game.Players[Target].Character.Humanoid
+        local ohNil2 = nil
+        local ohNumber3 = 0
+        local ohInstance4 = game.Players.LocalPlayer.Character.Head
+        local ohBoolean5 = true
+        local ohVector36 = game.Players[Target].Character.HumanoidRootPart.Position
+        local ohBoolean7 = false
+
+        while dead ~= true do
+            task.wait(.04)
+            game.Players.LocalPlayer.Character.Fist.LocalScript.Script.e:FireServer(
+                ohInstance1,
+                ohNil2,
+                ohNumber3,
+                ohInstance4,
+                ohBoolean5,
+                ohVector36,
+                ohBoolean7
+            )
+        end
+end)
+
+ Home3:addTextBox("Teleport To Player","Player name",function(text)
+    for i, v in pairs(game.Players:GetChildren()) do
+        if (string.sub(string.lower(v.Name), 1, string.len(text))) == string.lower(text) then
+            text = v.Name
+        end
+    end
+    local plr = game.Players.LocalPlayer
+    local ooooooof = text
+    local plr1 = game.Players.LocalPlayer.Character
+    local plr2 = game.Workspace:FindFirstChild(ooooooof)
+    plr1.HumanoidRootPart.CFrame = plr2.HumanoidRootPart.CFrame * CFrame.new(0,2,0)
+    game:GetService("Workspace")[plr.Name.."'s Car"]:MoveTo(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+    task.wait()
+    game:GetService("Workspace")[plr.Name.."'s Car"].DriveSeat:sit(plr.Character.Humanoid)
+    task.wait()
+    game:GetService("ReplicatedStorage").DoorService:FireServer("HOP",workspace:FindFirstChild(plr.Name .. "'s Car"))
+end)
+
+Home6:addButton("Bypass level 5+ spin",function()
+game.Players["BawinAdem"].Valuestats.Level.Value = "9999"
+end)
